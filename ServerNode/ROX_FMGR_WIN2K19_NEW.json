@@ -1,0 +1,45 @@
+{
+  "parent": "[Code_Repository_D1]ROX_FM_LB",
+  "parentLoadBalancer": "ROX_FM_LB",
+  "serverNodeType": "FILE_MANAGER",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "connectionTimeout": 60000,
+    "disconnectSessionAfterSensorIteration": true,
+    "disconnectTargetSessionAfterSensorIteration": true,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "persistenceRetry": true,
+    "persistenceRetryDelay": 30000,
+    "sysoutMaxAgeInDays": 3
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "D4_SFTP",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "DC31_SFTP",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "DC32_SFTP",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "WIN2K19-DC3",
+      "endpointType": "SFTP"
+    },
+    {
+      "endpoint": "WIN2K19-DC3-key",
+      "endpointType": "SFTP"
+    }
+  ]
+}

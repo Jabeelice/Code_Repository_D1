@@ -1,0 +1,32 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "node": "AC-001",
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "echo hello"
+  },
+  "dependencies": 
+  [
+    {
+      "dependencyType": "RESOURCE",
+      "name": "DR-004_STOCK_NO_PERMIT",
+      "processingStatus": "COMPLETED",
+      "processingType": "TASK",
+      "resource": "DR-004_STOCK_NO_PERMIT",
+      "resourcePermits": "1",
+      "resourceType": "STOCK",
+      "serverNodeType": "LINUX",
+      "taskType": "SH"
+    }
+  ]
+}

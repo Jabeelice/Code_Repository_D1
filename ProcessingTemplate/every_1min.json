@@ -1,0 +1,42 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "owner": "fidelinoroxanne",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 5,
+      "name": "TEST_3.4.9",
+      "processingTemplate": "TEST_3.4.9",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "STANDARD",
+      "templateParameters": {
+        "file_pattern": "delete_me_please.txt",
+        "file_pattern_ft": "delete_me_please_ft.txt"
+      }
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "endTime": 86399999,
+      "repeatInterval": 60000,
+      "startTime": 0,
+      "timeTriggerType": "REPEATING",
+      "validFrom": "2023-05-12T04:00:00.000",
+      "validTo": "2023-05-13T04:00:00.000"
+    }
+  ]
+}

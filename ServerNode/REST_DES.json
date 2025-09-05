@@ -1,0 +1,9 @@
+{
+  "serverNodeType": "REST_WEB_SERVICE",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

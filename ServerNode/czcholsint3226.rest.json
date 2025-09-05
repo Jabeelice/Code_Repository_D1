@@ -1,0 +1,45 @@
+{
+  "parent": "[Code_Repository_D1]REST.AUTOMIC.AGRP.GBL",
+  "parentLoadBalancer": "REST.AUTOMIC.AGRP.GBL",
+  "serverNodeType": "REST_WEB_SERVICE",
+  "sortOrder": 2,
+  "tags": 
+  [
+    "Anow"
+  ],
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "persistenceRetry": true,
+    "persistenceRetryDelay": 30000,
+    "sysoutDirectoryTree": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "Api.MQ-AUTO.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "GSN-HTTPS.WMOS.CREST",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "GSN-HTTP.WMOS.CREST",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "ServiceNow.MQ-AUTO.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    }
+  ]
+}

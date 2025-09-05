@@ -1,0 +1,26 @@
+{
+  "parent": "[Code_Repository_D1]AnowEngine.Linux.apf",
+  "parentLoadBalancer": "AnowEngine.Linux.apf",
+  "serverNodeType": "LINUX",
+  "sortOrder": 1,
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "ShellCmd": "/usr/bin/bash",
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "ftpPoolSize": 10,
+    "perlCmd": "/usr/bin/perl",
+    "persistence": true,
+    "persistenceRetry": true,
+    "persistenceRetryDelay": 30000,
+    "pythonCmd": "/usr/bin/python",
+    "sysoutDirectoryTree": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  }
+}

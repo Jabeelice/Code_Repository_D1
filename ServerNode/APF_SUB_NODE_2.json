@@ -1,0 +1,26 @@
+{
+  "parent": "[Code_Repository_D1]ACTIVE_PASSIVE_FAILOVER_LB",
+  "parentLoadBalancer": "ACTIVE_PASSIVE_FAILOVER_LB",
+  "serverNodeType": "LINUX",
+  "sortOrder": 1,
+  "tags": 
+  [
+    "DER"
+  ],
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 50,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "ftpPoolSize": 10,
+    "logLevel": "INFO",
+    "logMaxFiles": 180,
+    "persistenceRetryDelay": 5000,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "parent": "[Code_Repository_D1]REST.LB.RR",
+  "parentLoadBalancer": "REST.LB.RR",
+  "serverNodeType": "SOAP_WEB_SERVICE",
+  "sortOrder": 1,
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "defaultEndpoint": true,
+      "endpoint": "SOAP.server.node_ENDPOINT_with_credential_NEW",
+      "endpointType": "SOAP_WEB_SERVICE"
+    }
+  ]
+}

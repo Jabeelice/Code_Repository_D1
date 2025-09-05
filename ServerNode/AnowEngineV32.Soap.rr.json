@@ -1,0 +1,12 @@
+{
+  "description": "Agent v32 for SOAP jobs failing with new agent.",
+  "loadBalancer": true,
+  "loadBalancerStrategy": "ROUND_ROBIN",
+  "serverNodeType": "SOAP_WEB_SERVICE",
+  "tags": 
+  [
+    "Anow"
+  ],
+  "customFieldValues": {
+  }
+}

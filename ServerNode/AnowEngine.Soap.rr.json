@@ -1,0 +1,7 @@
+{
+  "loadBalancer": true,
+  "loadBalancerStrategy": "ROUND_ROBIN",
+  "serverNodeType": "SOAP_WEB_SERVICE",
+  "customFieldValues": {
+  }
+}

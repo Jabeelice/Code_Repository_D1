@@ -1,0 +1,11 @@
+{
+  "loadBalancer": true,
+  "loadBalancerStrategy": "MIN_WEIGHT",
+  "serverNodeType": "REST_WEB_SERVICE",
+  "tags": 
+  [
+    "WMOS"
+  ],
+  "customFieldValues": {
+  }
+}

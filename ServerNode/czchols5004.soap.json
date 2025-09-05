@@ -1,0 +1,69 @@
+{
+  "description": "Temporary workarounbd for issue with agent v38 (this one is v32).",
+  "parent": "[Code_Repository_D1]AnowEngineV32.Soap.rr",
+  "parentLoadBalancer": "AnowEngineV32.Soap.rr",
+  "serverNodeType": "SOAP_WEB_SERVICE",
+  "sortOrder": 1,
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "CreateCtask.CtaskAuto.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "CreateCtask.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "CreateRfcCi.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "CreateRfc.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "InsertCi.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "TaskRelTask.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateCtask.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Update.DbMw.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateRfc.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateCi.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateCtask.CtaskAuto.csoap",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateApproval.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateRFCService.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateCiNetwork.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    }
+  ]
+}

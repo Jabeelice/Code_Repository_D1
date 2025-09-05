@@ -1,0 +1,41 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "owner": "jabee.cosme@infinitedata.com",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "ALL",
+      "highRiskThreshold": 5,
+      "name": "SOAP_02",
+      "processingTemplate": "SOAP_02",
+      "processingType": "TASK",
+      "serverNodeType": "SOAP_WEB_SERVICE",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "taskType": "SOAP_WEB_SERVICE_CALL"
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "calculateProcessingTimestampUsingLocalTime": true,
+      "endTime": 86399999,
+      "passBy": true,
+      "preserveHourOfDayAcrossDaylightSavings": true,
+      "repeatInterval": 3600000,
+      "startTime": 75600000,
+      "timeTriggerType": "DAILY",
+      "timeZone": "Asia/Manila"
+    }
+  ]
+}

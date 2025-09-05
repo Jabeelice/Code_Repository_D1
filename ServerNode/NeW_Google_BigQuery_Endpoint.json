@@ -1,0 +1,9 @@
+{
+  "serverNodeType": "GOOGLE_BIG_QUERY",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

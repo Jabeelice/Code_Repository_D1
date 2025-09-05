@@ -1,0 +1,8 @@
+{
+  "parent": "[Code_Repository_D1]LB-006-RANDOM",
+  "parentLoadBalancer": "LB-006-RANDOM",
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  }
+}

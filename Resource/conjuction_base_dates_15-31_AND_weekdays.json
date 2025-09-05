@@ -1,0 +1,5 @@
+{
+  "calendarType": "AND",
+  "calendars": "base_dates_15-31,base_weekdays",
+  "resourceType": "CALENDAR"
+}

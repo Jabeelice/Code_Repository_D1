@@ -1,0 +1,29 @@
+{
+  "serverNodeType": "REST_WEB_SERVICE",
+  "tags": 
+  [
+    "RELEASE_TEST"
+  ],
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "defaultEndpoint": true,
+      "endpoint": "LOCAL",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "MOCK_SERVER",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "TEST",
+      "endpointType": "REST_WEB_SERVICE"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "node": "ACTIVE_PASSIVE_FAILOVER_LB",
+  "owner": "Administrator",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "tags": 
+  [
+    "DER"
+  ],
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "date\nsleep 90\ndate"
+  },
+  "designParameters": 
+  [
+    {
+      "editorType": "OUTPUT",
+      "name": "light_node",
+      "outputFormat": "TEXT",
+      "title": "light_node",
+      "outputDefinition": {
+        "linePattern": "MinW_SUB_NODE",
+        "linePatternOperator": "STARTS_WITH",
+        "valueEndOperator": "LINE_END",
+        "valueStartOperator": "START_OF_PATTERN"
+      }
+    }
+  ]
+}

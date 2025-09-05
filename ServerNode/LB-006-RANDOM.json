@@ -1,0 +1,7 @@
+{
+  "loadBalancer": true,
+  "loadBalancerStrategy": "RANDOM",
+  "serverNodeType": "LINUX",
+  "customFieldValues": {
+  }
+}

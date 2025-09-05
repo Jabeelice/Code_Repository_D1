@@ -1,0 +1,19 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "node": "SHARED_LINUX_NODE",
+  "owner": "ariel",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "forEachCollectionType": "TEXT",
+    "script": "SLEEP_TIME=`shuf -i 10-20 -n 1`\necho Iteration ${ITER}: Sleeping $SLEEP_TIME seconds\nsleep $SLEEP_TIME\necho Done"
+  }
+}

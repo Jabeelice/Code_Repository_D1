@@ -1,0 +1,29 @@
+{
+  "parent": "[Code_Repository_D1]AnowEngine.Tda.apf",
+  "parentLoadBalancer": "AnowEngine.Tda.apf",
+  "serverNodeType": "TERADATA",
+  "sortOrder": 2,
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "persistenceRetry": true,
+    "persistenceRetryDelay": 30000,
+    "sysoutDirectoryTree": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "TeradataDhl42.Acoc.ep",
+      "endpointType": "TERADATA"
+    }
+  ]
+}

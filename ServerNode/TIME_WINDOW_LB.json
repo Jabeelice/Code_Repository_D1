@@ -1,0 +1,14 @@
+{
+  "loadBalancer": true,
+  "loadBalancerStrategy": "TIME_SEMAPHORE",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "DER"
+  ],
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

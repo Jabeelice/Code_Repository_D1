@@ -1,0 +1,15 @@
+{
+  "description": "LB-002",
+  "loadBalancer": true,
+  "loadBalancerStrategy": "MIN_WEIGHT",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "DER"
+  ],
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "RELEASE_TEST"
+  ],
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "rox_as_anowapp",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_ariel",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_emander_not_sudoer",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_jellene",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_jellene_with_pw",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_nonexistent_user",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "SSH_Endpoint_to_tmp",
+      "endpointType": "SSH"
+    },
+    {
+      "endpoint": "rox_d4_ssh",
+      "endpointType": "SSH"
+    }
+  ]
+}

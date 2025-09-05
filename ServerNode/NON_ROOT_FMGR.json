@@ -1,0 +1,17 @@
+{
+  "serverNodeType": "FILE_MANAGER",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 40,
+    "connectionTimeout": 60000,
+    "disconnectSessionAfterSensorIteration": true,
+    "enfPort": 4445,
+    "ftpInterval": 5000,
+    "logLevel": "INFO",
+    "logMaxFiles": 180,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 50,
+    "connectionTimeout": 60000,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "ftpPoolSize": 10,
+    "persistenceRetryDelay": 5000,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  }
+}

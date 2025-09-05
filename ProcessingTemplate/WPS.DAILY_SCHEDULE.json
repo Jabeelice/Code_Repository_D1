@@ -1,0 +1,47 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "owner": "ZEW_2_35571_A",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "tags": 
+  [
+    "WPS",
+    "WPS.DAILY"
+  ],
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "calendar": "STANDARDOWY",
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "ALL",
+      "highRiskThreshold": 5,
+      "name": "WPS.DAILY",
+      "processingTemplate": "WPS.DAILY",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "timestampOffset": "-P1D",
+      "workflowType": "STANDARD"
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "calendar": "STANDARDOWY",
+      "calendarDays": "SHIFT(1D)",
+      "endTime": 86399999,
+      "passBy": true,
+      "repeatInterval": 3600000,
+      "startTime": 9900000,
+      "timeTriggerType": "DAILY",
+      "timeZone": "Europe/Warsaw"
+    }
+  ]
+}

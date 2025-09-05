@@ -1,0 +1,40 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "owner": "ariel",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "ALL",
+      "highRiskThreshold": 5,
+      "name": "DUMMY_WAIT",
+      "processingTemplate": "DUMMY_WAIT",
+      "processingType": "TASK",
+      "serverNodeType": "INTERNAL",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "taskType": "WAIT"
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "calendar": "WORKING_DAYS",
+      "endTime": 86399999,
+      "passBy": true,
+      "repeatInterval": 3600000,
+      "startTime": 72180000,
+      "timeTriggerType": "DAILY",
+      "timeZone": "Asia/Manila"
+    }
+  ]
+}

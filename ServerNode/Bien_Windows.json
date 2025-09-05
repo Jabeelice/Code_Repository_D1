@@ -1,0 +1,24 @@
+{
+  "serverNodeType": "WINDOWS",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "javaCmd": "C:\\OpenJDK\\jdk-11.0.12\\bin\\java",
+    "powershellCmd": "powershell -File",
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "SHARED_WINDOWS_NODE_ENDPOINT_tech_user",
+      "endpointType": "USER"
+    }
+  ]
+}

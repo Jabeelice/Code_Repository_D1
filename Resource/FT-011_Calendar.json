@@ -1,0 +1,9 @@
+{
+  "calendarDaysOfMonth": "1,-1",
+  "calendarType": "BASE",
+  "resourceType": "CALENDAR",
+  "tags": 
+  [
+    "AGENT_RT"
+  ]
+}

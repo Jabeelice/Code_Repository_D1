@@ -1,0 +1,6 @@
+{
+  "serverNodeType": "POSTGRESQL",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  }
+}

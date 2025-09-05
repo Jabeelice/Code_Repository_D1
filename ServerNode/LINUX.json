@@ -1,0 +1,17 @@
+{
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "defaultEndpoint": true,
+      "endpoint": "SHARED_LINUX_NODE_ENDPOINT_tech_user",
+      "endpointType": "USER"
+    }
+  ]
+}

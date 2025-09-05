@@ -1,0 +1,23 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "node": "MAX_WEIGHT_LB",
+  "owner": "Administrator",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "tags": 
+  [
+    "DER"
+  ],
+  "taskType": "SH",
+  "weight": "20",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "sleep 60"
+  }
+}

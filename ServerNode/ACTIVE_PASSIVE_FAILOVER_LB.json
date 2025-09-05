@@ -1,0 +1,15 @@
+{
+  "description": "LB-005",
+  "loadBalancer": true,
+  "loadBalancerStrategy": "ACTIVE_PASSIVE_FAILOVER",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "DER"
+  ],
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

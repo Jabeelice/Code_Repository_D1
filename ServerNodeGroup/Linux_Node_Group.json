@@ -1,0 +1,15 @@
+{
+  "serverNodeType": "LINUX",
+  "items": 
+  [
+    {
+      "serverNode": "Bien_User_Linux"
+    },
+    {
+      "serverNode": "LINUX"
+    },
+    {
+      "serverNode": "ROX_USER_LINUX"
+    }
+  ]
+}

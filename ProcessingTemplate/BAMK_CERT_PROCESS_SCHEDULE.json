@@ -1,0 +1,39 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "owner": "ariel",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "triggerType": "EVENT",
+  "customFieldValues": {
+  },
+  "dependencies": 
+  [
+    {
+      "dependencyType": "RESOURCE",
+      "name": "BANK_CERT_REQUEST_FOUND",
+      "processingStatus": "COMPLETED",
+      "processingType": "TRIGGER",
+      "resource": "BANK_CERT_REQUEST_FOUND",
+      "resourceType": "EVENT",
+      "triggerType": "EVENT"
+    }
+  ],
+  "items": 
+  [
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "ALL",
+      "highRiskThreshold": 5,
+      "name": "BANK_CERT_PROCESSING_WORKFLOW",
+      "processingTemplate": "BANK_CERT_PROCESSING_WORKFLOW",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "STANDARD"
+    }
+  ]
+}

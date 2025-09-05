@@ -1,0 +1,15 @@
+{
+  "description": "Installed on a server with access to the public internet",
+  "serverNodeType": "ORACLE",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+    "NP": "test 1"
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "Oracle_Cloud_ATP_Using_TNS_Name_Alias",
+      "endpointType": "ORACLE"
+    }
+  ]
+}

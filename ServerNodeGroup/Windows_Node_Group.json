@@ -1,0 +1,12 @@
+{
+  "serverNodeType": "WINDOWS",
+  "items": 
+  [
+    {
+      "serverNode": "Bien_Windows"
+    },
+    {
+      "serverNode": "Jabee_Shared"
+    }
+  ]
+}

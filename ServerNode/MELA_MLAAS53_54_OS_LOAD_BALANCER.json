@@ -1,0 +1,13 @@
+{
+  "description": "TAPATURMA",
+  "loadBalancer": true,
+  "loadBalancerStrategy": "ACTIVE_PASSIVE_FAILOVER",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "S53",
+    "S54"
+  ],
+  "customFieldValues": {
+  }
+}

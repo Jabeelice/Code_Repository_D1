@@ -1,0 +1,11 @@
+{
+  "loadBalancer": true,
+  "loadBalancerStrategy": "ACTIVE_PASSIVE_FAILOVER",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "Anow"
+  ],
+  "customFieldValues": {
+  }
+}

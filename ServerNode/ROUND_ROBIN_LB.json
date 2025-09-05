@@ -1,0 +1,14 @@
+{
+  "loadBalancer": true,
+  "loadBalancerStrategy": "ROUND_ROBIN",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "DER"
+  ],
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

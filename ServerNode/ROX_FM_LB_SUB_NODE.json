@@ -1,0 +1,8 @@
+{
+  "parent": "[Code_Repository_D1]ROX_FM_LB",
+  "parentLoadBalancer": "ROX_FM_LB",
+  "serverNodeType": "FILE_MANAGER",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  }
+}

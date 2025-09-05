@@ -1,0 +1,8 @@
+{
+  "description": "not used",
+  "loadBalancer": true,
+  "loadBalancerStrategy": "MIN_WEIGHT",
+  "serverNodeType": "LINUX",
+  "customFieldValues": {
+  }
+}

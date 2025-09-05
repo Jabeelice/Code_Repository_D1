@@ -1,0 +1,22 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "node": "SHARED_LINUX_NODE",
+  "owner": "Administrator",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "tags": 
+  [
+    "DER"
+  ],
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "echo 1\n\nif [ 1 == 0 ]; then\n   touch /tmp/der/source/{a..z}.txt\nelif [ 1 == 1 ];\nthen\n   touch /tmp/der/source/{A..Z}.txt\nelif [ 1 == 2 ];\nthen\n   touch /tmp/der/source/{1..28}.txt\nfi"
+  }
+}

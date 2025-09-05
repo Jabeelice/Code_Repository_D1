@@ -1,0 +1,17 @@
+{
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 250,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 200,
+    "connectionTimeout": 60000,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "ftpPoolSize": 10,
+    "persistenceRetryDelay": 5000,
+    "pythonCmd": "/usr/bin/python3",
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  }
+}

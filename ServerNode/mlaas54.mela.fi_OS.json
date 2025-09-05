@@ -1,0 +1,51 @@
+{
+  "description": "Created properly using automation. Customer: MELA. Ticket: CHG0000585489",
+  "parent": "[Code_Repository_D1]MELA_MLAAS53_54_OS_LOAD_BALANCER",
+  "parentLoadBalancer": "MELA_MLAAS53_54_OS_LOAD_BALANCER",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "S54"
+  ],
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000
+  },
+  "customFieldValues": {
+  },
+  "actions": 
+  [
+    {
+      "processingActionType": "NOTIFY_CHANNEL",
+      "processingEventCategory": "SERVER_NODE",
+      "processingEventType": "SERVER_NODE_DISCONNECTED",
+      "processingCommand": {
+        "notificationChannel": "[MELA]nodeMonitor",
+        "notificationChannelParameters": {
+          "ci": "TDASPROD4_[MELA]anowapp@mlaas54.mela.fi",
+          "dateQueued": "May 23, 2024, 2:02:00 PM",
+          "domain": "MELA",
+          "server": "mlaas54.mela.fi",
+          "severity": "2",
+          "status": "DISCONNECTED"
+        }
+      }
+    },
+    {
+      "processingActionType": "NOTIFY_CHANNEL",
+      "processingEventCategory": "SERVER_NODE",
+      "processingEventType": "SERVER_NODE_CONNECTED",
+      "processingCommand": {
+        "notificationChannel": "[MELA]nodeMonitor",
+        "notificationChannelParameters": {
+          "ci": "TDASPROD4_[MELA]anowapp@mlaas54.mela.fi",
+          "dateQueued": "May 23, 2024, 2:03:00 PM",
+          "domain": "MELA",
+          "server": "mlaas54.mela.fi",
+          "severity": "0",
+          "status": "CONNECTED"
+        }
+      }
+    }
+  ]
+}

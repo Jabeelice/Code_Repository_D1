@@ -1,0 +1,129 @@
+{
+  "parent": "[Code_Repository_D1]AnowEngine.Rest.rr",
+  "parentLoadBalancer": "AnowEngine.Rest.rr",
+  "serverNodeType": "REST_WEB_SERVICE",
+  "sortOrder": 1,
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "persistenceRetry": true,
+    "persistenceRetryDelay": 30000,
+    "sysoutDirectoryTree": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "OpsSecurityPortal.TARFulfilment.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "DevAnowApiNoAuth.SanboxAccess.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Afsm.DSC-WM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "ServiceNow.DSC-WM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "OAT.TARFulfilment.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "ANOW-DEV.TEST.ORA-DGUA.CREST",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "ANOW-PROD.TEST.ORA-DGUA.CREST",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Api.MQAuto.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Cascade.NIAAuto.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "DBA-PORTAL.ORA-DGUA.CREST",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "MainRest.Gsn.Gbl.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "MainSBF.Acoc.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "MAIN.SOTI.CREST",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "MCAWebSite.MCA.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "REST.GSN.DSC-WLM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "ServiceNow.DSC-WM-LATAM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "ServiceNow.DSC-WM-NORAM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "ServiceNow.IncMgmt.Gbl.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "servicenow.IncMgmt.Gbl.jrest",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Tower.AnsTower.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "AD.SATS-IAM.EP",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "zabbix.DSC-WLM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Afsm.DSC-WLM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Afsm.DSC-WM-LATAM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Afsm.DSC-WM-NORAM.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    },
+    {
+      "endpoint": "AnowApiNoAuth.Gbl.ep",
+      "endpointType": "REST_WEB_SERVICE"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "owner": "DAWIENER",
+  "preloadCounter": 10,
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "designParameters": 
+  [
+    {
+      "allowExpressions": true,
+      "defaultValue": "200",
+      "editorType": "NUMBER",
+      "name": "NumTasks",
+      "required": true,
+      "title": "Number of tasks to run"
+    }
+  ],
+  "items": 
+  [
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "ALL",
+      "highRiskThreshold": 5,
+      "name": "Main1.LoadTest.Anow.wst",
+      "processingTemplate": "Main1.LoadTest.Anow.wst",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "STANDARD"
+    }
+  ]
+}

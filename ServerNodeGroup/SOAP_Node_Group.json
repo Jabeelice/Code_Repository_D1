@@ -1,0 +1,12 @@
+{
+  "serverNodeType": "SOAP_WEB_SERVICE",
+  "items": 
+  [
+    {
+      "serverNode": "SOAP_server_node"
+    },
+    {
+      "serverNode": "SOAP.server.node"
+    }
+  ]
+}

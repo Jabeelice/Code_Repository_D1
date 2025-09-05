@@ -1,0 +1,7 @@
+{
+  "loadBalancer": true,
+  "loadBalancerStrategy": "TIME_SEMAPHORE",
+  "serverNodeType": "LINUX",
+  "customFieldValues": {
+  }
+}

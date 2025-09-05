@@ -1,0 +1,13 @@
+{
+  "serverNodeType": "HTTP",
+  "totalWeightCapacity": 50,
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "Sample_HTTP_ENDPOINT",
+      "endpointType": "HTTP"
+    }
+  ]
+}

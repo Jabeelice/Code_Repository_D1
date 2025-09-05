@@ -1,0 +1,35 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "node": "LINUX",
+  "owner": "ariel",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "echo You entered \"${phrase}\""
+  },
+  "designParameters": 
+  [
+    {
+      "editorType": "TEXT",
+      "hint": "This input will be echoed back to you",
+      "name": "phrase",
+      "title": "Phrase"
+    },
+    {
+      "editorType": "FILE_PICKER",
+      "filePickerMode": "ABSOLUTE_PATH",
+      "listingType": "FILES_AND_FOLDERS",
+      "name": "mvtest",
+      "selectionType": "FOLDERS",
+      "title": "filepicker"
+    }
+  ]
+}

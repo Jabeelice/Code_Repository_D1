@@ -1,0 +1,20 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "node": "LINUX_CM",
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "taskType": "SH",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "forEachCollectionType": "TEXT",
+    "onUnresolvedVariables": "FAIL",
+    "script": "echo 'sleeping for 2 minutes...'\nsleep 2m"
+  }
+}

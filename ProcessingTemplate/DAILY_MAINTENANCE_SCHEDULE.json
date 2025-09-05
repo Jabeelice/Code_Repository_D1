@@ -1,0 +1,38 @@
+{
+  "description": "Daily internal AutomateNOW! maintenance",
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "owner": "jabee.cosme@infinitedata.com",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "disallowConcurrentExecution": false,
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 5,
+      "name": "[INTERNAL]DAILY_MAINTENANCE",
+      "processingTemplate": "DAILY_MAINTENANCE",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "title": "[INTERNAL]DAILY_MAINTENANCE",
+      "workflowType": "STANDARD"
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "passBy": true,
+      "startTime": 82800000,
+      "timeTriggerType": "DAILY"
+    }
+  ]
+}

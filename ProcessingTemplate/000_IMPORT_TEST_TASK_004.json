@@ -1,0 +1,32 @@
+{
+  "highRiskStatisticMethod": "COUNT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "node": "TMG_AS_ROOT",
+  "owner": "i",
+  "priority": "1",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "taskType": "SH",
+  "customFieldValues": {
+    "CF1": "abc",
+    "CostCenter": "123-321-344648957459867",
+    "ZnacznikPrzyrostu": "111111111111"
+  },
+  "ignoreCondition": {
+    "criteria": 
+    [
+      {
+        "fieldName": "id",
+        "operator": "NE",
+        "value": "1"
+      }
+    ],
+    "operator": "AND"
+  },
+  "processingCommand": {
+    "script": "echo ${id}\nsleep  9\n"
+  }
+}

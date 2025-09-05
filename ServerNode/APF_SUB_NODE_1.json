@@ -1,0 +1,11 @@
+{
+  "parent": "[Code_Repository_D1]ACTIVE_PASSIVE_FAILOVER_LB",
+  "parentLoadBalancer": "ACTIVE_PASSIVE_FAILOVER_LB",
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

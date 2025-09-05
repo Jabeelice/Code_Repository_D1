@@ -1,0 +1,40 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "ALL",
+  "highRiskThreshold": 5,
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "triggerType": "EVENT",
+  "customFieldValues": {
+  },
+  "dependencies": 
+  [
+    {
+      "dependencyType": "RESOURCE",
+      "name": "ST-002_EVENT_COPY",
+      "processingStatus": "COMPLETED",
+      "processingType": "TRIGGER",
+      "resource": "ST-002_EVENT_COPY",
+      "resourceType": "EVENT",
+      "triggerType": "EVENT"
+    }
+  ],
+  "items": 
+  [
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "ALL",
+      "highRiskThreshold": 5,
+      "name": "TRIGGERED_FROM_ST-002",
+      "processingTemplate": "TRIGGERED_FROM_ST-002",
+      "processingType": "TASK",
+      "serverNodeType": "INTERNAL",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "taskType": "WAIT"
+    }
+  ]
+}

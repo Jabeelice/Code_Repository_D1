@@ -1,0 +1,17 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "owner": "Roxanne",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "tags": 
+  [
+    "ROX"
+  ],
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  }
+}

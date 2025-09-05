@@ -1,0 +1,18 @@
+{
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "owner": "Roxanne",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "tags": 
+  [
+    "SEC_TEST"
+  ],
+  "taskType": "SH",
+  "customFieldValues": {
+  }
+}

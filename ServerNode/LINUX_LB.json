@@ -1,0 +1,10 @@
+{
+  "loadBalancer": true,
+  "loadBalancerStrategy": "TIME_SEMAPHORE",
+  "serverNodeType": "LINUX",
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}

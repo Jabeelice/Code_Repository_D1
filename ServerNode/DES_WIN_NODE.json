@@ -1,0 +1,17 @@
+{
+  "serverNodeType": "WINDOWS",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "defaultEndpoint": true,
+      "endpoint": "DES_WIN_NODE_ENDPOINT",
+      "endpointType": "USER"
+    }
+  ]
+}

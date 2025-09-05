@@ -1,0 +1,58 @@
+{
+  "serverNodeType": "LINUX",
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 40,
+    "ShellCmd": "/bin/sh ${script} -v",
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "ftpInterval": 5000,
+    "logLevel": "INFO",
+    "logMaxFiles": 180,
+    "maxLogSize": 500,
+    "persistence": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "rox_as_anowapp",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_ariel",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_emander_not_sudoer",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_jellene_with_pw",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_nonexistent_user",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "user_with_no_password",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "rox_as_jellene",
+      "endpointType": "USER"
+    },
+    {
+      "endpoint": "ROX_SSH",
+      "endpointType": "SSH"
+    },
+    {
+      "endpoint": "ROX_SSH_PATH",
+      "endpointType": "SSH"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "parent": "[Code_Repository_D1]AnowEngine.Soap.rr",
+  "parentLoadBalancer": "AnowEngine.Soap.rr",
+  "serverNodeType": "SOAP_WEB_SERVICE",
+  "sortOrder": 5,
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 60,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "persistence": true,
+    "persistenceRetry": true,
+    "persistenceRetryDelay": 30000,
+    "sysoutDirectoryTree": true,
+    "sysoutMaxAgeInDays": 180
+  },
+  "customFieldValues": {
+  },
+  "endpoints": 
+  [
+    {
+      "endpoint": "UpdateCtask.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "CreateCtask.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "CreateRfc.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateRfc.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "TaskRelTask.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateCi.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "InsertCi.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "Update.DbMw.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateApproval.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateRFCService.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "CreateRfcCi.Gsn.Gbl.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    },
+    {
+      "endpoint": "UpdateCiNetwork.Gsn.Acoc.ep",
+      "endpointType": "SOAP_WEB_SERVICE"
+    }
+  ]
+}

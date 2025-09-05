@@ -1,0 +1,106 @@
+{
+  "description": "AC-013,LB-002,LB-003,LB-004,LB-006,LB-005",
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 5,
+  "owner": "jellene",
+  "priority": "0",
+  "processingType": "TRIGGER",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "triggerType": "SCHEDULE",
+  "customFieldValues": {
+  },
+  "items": 
+  [
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 5,
+      "name": "AC-013",
+      "processingTemplate": "AC-013",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "STANDARD"
+    },
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 5,
+      "name": "MaxW_LB_Main",
+      "processingTemplate": "MaxW_LB_Main",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "STANDARD"
+    },
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 5,
+      "name": "LB-004.1",
+      "processingTemplate": "LB-004",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "STANDARD"
+    },
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 5,
+      "name": "MinW_LB_Main",
+      "processingTemplate": "MinW_LB_Main",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "STANDARD"
+    },
+    {
+      "disallowConcurrentExecution": true,
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 5,
+      "name": "APF_LB_WF_FOR_EACH",
+      "processingTemplate": "APF_LB_WF_FOR_EACH",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "FOR_EACH"
+    },
+    {
+      "highRiskStatisticMethod": "PERCENT",
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 5,
+      "name": "LB-006",
+      "processingTemplate": "LB-006",
+      "processingType": "WORKFLOW",
+      "statisticMethod": "AVERAGE",
+      "statisticPeriod": "MONTH",
+      "workflowType": "FOR_EACH"
+    }
+  ],
+  "timeTriggers": 
+  [
+    {
+      "calculateProcessingTimestampUsingLocalTime": true,
+      "cronExpression": "15 15 15 ? * WED *",
+      "endTime": 86399999,
+      "passBy": true,
+      "repeatInterval": 3600000,
+      "startTime": 0,
+      "timeTriggerType": "CRON",
+      "timeZone": "Asia/Manila"
+    },
+    {
+      "calendar": "base_weekdays",
+      "endTime": 86399999,
+      "passBy": true,
+      "repeatInterval": 3600000,
+      "startTime": 54061000,
+      "timeTriggerType": "DAILY",
+      "timeZone": "Asia/Manila"
+    }
+  ]
+}

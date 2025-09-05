@@ -1,0 +1,33 @@
+{
+  "description": "mmm",
+  "highRiskStatisticMethod": "PERCENT",
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 3,
+  "node": "TMG_AS_ROOT",
+  "owner": "i",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "LINUX",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
+  "tags": 
+  [
+    "ADM"
+  ],
+  "taskType": "SH",
+  "customFieldValues": {
+    "CF1": "abcdef"
+  },
+  "processingCommand": {
+    "script": "sleep 1\n\nsleep 3\n\nsleep 1\n\necho ${KVS::TMG_WKF(AB_-:.001)}"
+  },
+  "designParameters": 
+  [
+    {
+      "defaultValue": "werwerwerwer",
+      "editorType": "TEXT",
+      "name": "vcvxc",
+      "title": "xvxc"
+    }
+  ]
+}

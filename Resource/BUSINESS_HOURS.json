@@ -1,0 +1,13 @@
+{
+  "resourceType": "TIME_SEMAPHORE",
+  "timeTriggers": 
+  [
+    {
+      "closeAfter": 3600000,
+      "endTime": 61200000,
+      "repeatInterval": 3600000,
+      "startTime": 32400000,
+      "timeTriggerType": "DAILY"
+    }
+  ]
+}

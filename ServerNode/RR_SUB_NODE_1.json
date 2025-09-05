@@ -1,0 +1,16 @@
+{
+  "parent": "[Code_Repository_D1]ROUND_ROBIN_LB",
+  "parentLoadBalancer": "ROUND_ROBIN_LB",
+  "serverNodeType": "LINUX",
+  "sortOrder": 0,
+  "tags": 
+  [
+    "DER"
+  ],
+  "totalWeightCapacity": 50,
+  "configuration": {
+    "AgentHeartbeat": 60000
+  },
+  "customFieldValues": {
+  }
+}
