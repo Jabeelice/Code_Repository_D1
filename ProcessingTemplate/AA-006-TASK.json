@@ -15,6 +15,6 @@
   "processingCommand": {
     "forEachCollectionType": "TEXT",
     "onUnresolvedVariables": "FAIL",
-    "script": "echo 'sleeping for 2 minutes...'\nsleep 2m"
+    "script": "echo 'sleeping for 3 minutes...'\nsleep 2m"
   }
 }
