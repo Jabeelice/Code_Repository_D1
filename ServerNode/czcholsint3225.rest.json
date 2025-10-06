@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D1]REST.AUTOMIC.AGRP.GBL",
+  "parent": "[Code_Repository_D2]REST.AUTOMIC.AGRP.GBL",
   "parentLoadBalancer": "REST.AUTOMIC.AGRP.GBL",
   "serverNodeType": "REST_WEB_SERVICE",
   "sortOrder": 1,

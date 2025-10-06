@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D1]AnowEngine.Rest.rr",
+  "parent": "[Code_Repository_D2]AnowEngine.Rest.rr",
   "parentLoadBalancer": "AnowEngine.Rest.rr",
   "serverNodeType": "REST_WEB_SERVICE",
   "sortOrder": 2,
