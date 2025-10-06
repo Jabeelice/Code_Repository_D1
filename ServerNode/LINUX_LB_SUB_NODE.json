@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D1]LINUX_LB",
+  "parent": "[Code_Repository_D2]LINUX_LB",
   "parentLoadBalancer": "LINUX_LB",
   "serverNodeType": "LINUX",
   "totalWeightCapacity": 50,
