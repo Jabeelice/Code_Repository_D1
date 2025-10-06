@@ -13,6 +13,6 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "sleep 15\necho \"slept on ${serverNode}\""
+    "script": "sleep 30\necho \"slept on ${serverNode}\""
   }
 }
