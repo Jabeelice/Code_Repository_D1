@@ -17,6 +17,6 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "sleep 80"
+    "script": "sleep 70"
   }
 }
