@@ -13,6 +13,6 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "exit 5"
+    "script": "exit 10"
   }
 }
