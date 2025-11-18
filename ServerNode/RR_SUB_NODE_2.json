@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D2]ROUND_ROBIN_LB",
+  "parent": "[Code_Repository_D1]ROUND_ROBIN_LB",
   "parentLoadBalancer": "ROUND_ROBIN_LB",
   "serverNodeType": "LINUX",
   "sortOrder": 1,

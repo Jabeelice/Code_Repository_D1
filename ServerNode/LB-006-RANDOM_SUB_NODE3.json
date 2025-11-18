@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D2]LB-006-RANDOM",
+  "parent": "[Code_Repository_D1]LB-006-RANDOM",
   "parentLoadBalancer": "LB-006-RANDOM",
   "serverNodeType": "LINUX",
   "totalWeightCapacity": 5,

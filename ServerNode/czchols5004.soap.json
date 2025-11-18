@@ -1,6 +1,6 @@
 {
   "description": "Temporary workarounbd for issue with agent v38 (this one is v32).",
-  "parent": "[Code_Repository_D2]AnowEngineV32.Soap.rr",
+  "parent": "[Code_Repository_D1]AnowEngineV32.Soap.rr",
   "parentLoadBalancer": "AnowEngineV32.Soap.rr",
   "serverNodeType": "SOAP_WEB_SERVICE",
   "sortOrder": 1,

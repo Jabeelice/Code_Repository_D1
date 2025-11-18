@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D2]MAX_WEIGHT_LB",
+  "parent": "[Code_Repository_D1]MAX_WEIGHT_LB",
   "parentLoadBalancer": "MAX_WEIGHT_LB",
   "serverNodeType": "LINUX",
   "sortOrder": 1,

@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D2]REST.LB.RR",
+  "parent": "[Code_Repository_D1]REST.LB.RR",
   "parentLoadBalancer": "REST.LB.RR",
   "serverNodeType": "SOAP_WEB_SERVICE",
   "sortOrder": 1,
