@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D1]AnowEngine.Soap.rr",
+  "parent": "[Jabee_Domain]AnowEngine.Soap.rr",
   "parentLoadBalancer": "AnowEngine.Soap.rr",
   "serverNodeType": "SOAP_WEB_SERVICE",
   "sortOrder": 3,

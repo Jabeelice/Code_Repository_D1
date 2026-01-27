@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D1]AnowEngine.Tda.apf",
+  "parent": "[Jabee_Domain]AnowEngine.Tda.apf",
   "parentLoadBalancer": "AnowEngine.Tda.apf",
   "serverNodeType": "TERADATA",
   "sortOrder": 0,

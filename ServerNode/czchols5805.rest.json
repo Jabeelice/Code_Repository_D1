@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D1]AnowEngine.Rest.rr",
+  "parent": "[Jabee_Domain]AnowEngine.Rest.rr",
   "parentLoadBalancer": "AnowEngine.Rest.rr",
   "serverNodeType": "REST_WEB_SERVICE",
   "sortOrder": 1,

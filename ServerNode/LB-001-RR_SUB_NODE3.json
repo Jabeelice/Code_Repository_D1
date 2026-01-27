@@ -1,5 +1,5 @@
 {
-  "parent": "[Code_Repository_D1]LB-001-RR",
+  "parent": "[Jabee_Domain]LB-001-RR",
   "parentLoadBalancer": "LB-001-RR",
   "serverNodeType": "LINUX",
   "sortOrder": 2,
