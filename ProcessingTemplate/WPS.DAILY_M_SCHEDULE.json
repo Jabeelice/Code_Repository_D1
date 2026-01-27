@@ -1,12 +1,12 @@
 {
   "highRiskStatisticMethod": "PERCENT",
-  "highRiskStatisticPeriod": "ALL",
-  "highRiskThreshold": 5,
+  "highRiskStatisticPeriod": "WEEK",
+  "highRiskThreshold": 3,
   "owner": "ZEW_2_35571_A",
   "priority": "0",
   "processingType": "TRIGGER",
-  "statisticMethod": "AVERAGE",
-  "statisticPeriod": "MONTH",
+  "statisticMethod": "MEDIAN",
+  "statisticPeriod": "ALL",
   "tags": 
   [
     "WPS",
@@ -20,13 +20,13 @@
     {
       "calendar": "STANDARDOWY",
       "highRiskStatisticMethod": "PERCENT",
-      "highRiskStatisticPeriod": "ALL",
-      "highRiskThreshold": 5,
+      "highRiskStatisticPeriod": "WEEK",
+      "highRiskThreshold": 3,
       "name": "WPS.DAILY_M",
       "processingTemplate": "WPS.DAILY_M",
       "processingType": "WORKFLOW",
-      "statisticMethod": "AVERAGE",
-      "statisticPeriod": "MONTH",
+      "statisticMethod": "MEDIAN",
+      "statisticPeriod": "ALL",
       "timestampOffset": "-P1D",
       "workflowType": "STANDARD"
     }
@@ -37,7 +37,6 @@
       "calendar": "STANDARDOWY",
       "calendarDays": "SHIFT(1D)",
       "endTime": 86399999,
-      "passBy": true,
       "repeatInterval": 3600000,
       "startTime": 9600000,
       "timeTriggerType": "DAILY",
