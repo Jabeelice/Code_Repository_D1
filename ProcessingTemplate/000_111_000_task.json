@@ -19,7 +19,7 @@
     "CF1": "abcdef"
   },
   "processingCommand": {
-    "script": "sleep 1\n\nsleep 3\n\nsleep 1\n\necho ${KVS::TMG_WKF(AB_-:.001)}"
+    "script": "sleep 1\n\nsleep 3\n\nsleep 1\n\necho ${KVS::TMG_WKF(AB_-:.001)}\n\nUser_测试 🚀 café 'quote' \"double\" <tag> & ../path\\file.txt 😀 ${var} ; DROP TABLE logs; ‏"
   },
   "designParameters": 
   [
