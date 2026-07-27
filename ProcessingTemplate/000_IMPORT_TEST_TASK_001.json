@@ -5,6 +5,8 @@
   "highRiskThreshold": 5,
   "node": "TMG_AS_ROOT",
   "owner": "i",
+  "pendingBy": "jabee.cosme@infinitedata.com",
+  "pendingDate": "2026-07-27T07:03:46.291",
   "priority": "11",
   "processingType": "TASK",
   "serverNodeType": "LINUX",
@@ -15,7 +17,7 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "sleep 2\n\necho \"SINVAR:AAAA=`uname -a`\"\n\necho alamakota\n\necho ${endpoint}\n\necho \"アラは猫を飼っています\"\n\nexit 0\n"
+    "script": "sleep 2\n\necho \"SINVAR:AAAA=`uname -a`\"\n\necho alamakota\n\necho ${endpoint}\n\necho \"アラは猫を飼っています\"\n\nexit 1000\n"
   },
   "dependencies": 
   [
