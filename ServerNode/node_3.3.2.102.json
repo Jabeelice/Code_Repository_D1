@@ -1,0 +1,99 @@
+{
+  "folder": "RELEASE_TEST",
+  "serverNodeType": "LINUX",
+  "tags": 
+  [
+    "RELEASE_TEST"
+  ],
+  "totalWeightCapacity": 20,
+  "configuration": {
+    "AgentHeartbeat": 30000,
+    "NoOfPrcss": 20,
+    "connectionTimeout": 60000,
+    "enfPort": 4445,
+    "firstDayOfWeek": 6,
+    "ftpInterval": 5000,
+    "javaCmd": "/usr/bin/java",
+    "logLevel": "INFO",
+    "logMaxFiles": 180,
+    "pythonCmd": "/bin/python3",
+    "sysoutMaxAgeInDays": 30
+  },
+  "customFieldValues": {
+  },
+  "actions": 
+  [
+    {
+      "processingActionType": "NOTIFY_EMAIL",
+      "processingEventCategory": "SERVER_NODE",
+      "processingEventType": "SERVER_NODE_HOLD",
+      "processingCommand": {
+        "contentType": "TEXT",
+        "message": "NODE AC-001 has been put on hold",
+        "recipient": "Emander Dangla <emander.dangla@infinitedata.com>",
+        "subject": "[RA-003] Agent Release Test - Notification"
+      }
+    }
+  ],
+  "designParameters": 
+  [
+    {
+      "defaultValue": "2023-02-22",
+      "editorType": "DATE",
+      "name": "NODE_DATE",
+      "title": "NODE_DATE"
+    },
+    {
+      "defaultValue": "This is a text",
+      "editorType": "TEXT",
+      "name": "NODE_TEXT",
+      "title": "NODE_TEXT"
+    },
+    {
+      "defaultValue": "Hello\nCold\nWorld!",
+      "editorType": "TEXT_AREA",
+      "name": "NODE_TEXT_AREA",
+      "title": "NODE_TEXT_AREA"
+    },
+    {
+      "defaultValue": "7",
+      "editorType": "NUMBER",
+      "name": "NODE_NUMBER",
+      "title": "NODE_NUMBER"
+    },
+    {
+      "checkedValue": "Checked",
+      "defaultValue": "Checked",
+      "editorType": "CHECKBOX",
+      "name": "NODE_CHECKBOX",
+      "title": "NODE_CHECKBOX",
+      "uncheckedValue": "Unchecked"
+    },
+    {
+      "defaultValue": "key1",
+      "editorType": "LIST",
+      "listOfValues": "{\"key1\":\"val1\",\"key2\":\"val2\",\"key3\":\"val3\"}",
+      "name": "NODE_LIST",
+      "title": "NODE_LIST"
+    }
+  ],
+  "endpoints": 
+  [
+    {
+      "endpoint": "SSH_Endpoint_File_SSH_Key",
+      "endpointType": "SSH"
+    },
+    {
+      "endpoint": "SSH_Endpoint_File_SSH_Key_With_Pasphrase",
+      "endpointType": "SSH"
+    },
+    {
+      "endpoint": "SSH_Endpoint_Inline_SSH_Key",
+      "endpointType": "SSH"
+    },
+    {
+      "endpoint": "SSH_Endpoint_Password",
+      "endpointType": "SSH"
+    }
+  ]
+}
