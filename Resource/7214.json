@@ -1,5 +1,6 @@
 {
   "maxValue": "10",
   "minValue": "1",
-  "resourceType": "PHYSICAL_RESOURCE"
+  "resourceType": "PHYSICAL_RESOURCE",
+  "valueUnit": "123123123123"
 }
