@@ -1,5 +1,7 @@
 {
   "loadBalancer": true,
   "loadBalancerStrategy": "ACTIVE_PASSIVE_FAILOVER",
-  "serverNodeType": "TERADATA"
+  "serverNodeType": "TERADATA",
+  "customFieldValues": {
+  }
 }

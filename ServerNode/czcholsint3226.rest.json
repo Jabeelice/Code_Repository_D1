@@ -1,5 +1,5 @@
 {
-  "parent": "[Jabee_Domain]REST.AUTOMIC.AGRP.GBL",
+  "parent": "[3.3.2.102_CodeRepo]REST.AUTOMIC.AGRP.GBL",
   "parentLoadBalancer": "REST.AUTOMIC.AGRP.GBL",
   "serverNodeType": "REST_WEB_SERVICE",
   "sortOrder": 2,

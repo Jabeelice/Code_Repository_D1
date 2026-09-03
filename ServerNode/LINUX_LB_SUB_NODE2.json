@@ -1,5 +1,5 @@
 {
-  "parent": "[Jabee_Domain]LINUX_LB",
+  "parent": "[3.3.2.102_CodeRepo]LINUX_LB",
   "parentLoadBalancer": "LINUX_LB",
   "serverNodeType": "LINUX",
   "totalWeightCapacity": 50,

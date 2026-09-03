@@ -1,5 +1,5 @@
 {
-  "parent": "[Jabee_Domain]ROX_FM_LB",
+  "parent": "[3.3.2.102_CodeRepo]ROX_FM_LB",
   "parentLoadBalancer": "ROX_FM_LB",
   "serverNodeType": "FILE_MANAGER",
   "totalWeightCapacity": 50,

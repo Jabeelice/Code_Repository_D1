@@ -1,6 +1,6 @@
 {
   "description": "Created properly using automation. Customer: MELA. Ticket: CHG0000585489",
-  "parent": "[Jabee_Domain]MELA_MLAAS53_54_OS_LOAD_BALANCER",
+  "parent": "[3.3.2.102_CodeRepo]MELA_MLAAS53_54_OS_LOAD_BALANCER",
   "parentLoadBalancer": "MELA_MLAAS53_54_OS_LOAD_BALANCER",
   "serverNodeType": "LINUX",
   "tags": 

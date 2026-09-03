@@ -1,5 +1,5 @@
 {
-  "parent": "[Jabee_Domain]LB-006-RANDOM",
+  "parent": "[3.3.2.102_CodeRepo]LB-006-RANDOM",
   "parentLoadBalancer": "LB-006-RANDOM",
   "serverNodeType": "LINUX",
   "totalWeightCapacity": 5,

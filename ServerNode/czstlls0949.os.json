@@ -1,5 +1,5 @@
 {
-  "parent": "[Jabee_Domain]AnowEngine.Linux.apf",
+  "parent": "[3.3.2.102_CodeRepo]AnowEngine.Linux.apf",
   "parentLoadBalancer": "AnowEngine.Linux.apf",
   "serverNodeType": "LINUX",
   "sortOrder": 2,

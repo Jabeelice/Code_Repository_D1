@@ -1,5 +1,5 @@
 {
-  "parent": "[Jabee_Domain]REST.LB.RR",
+  "parent": "[3.3.2.102_CodeRepo]REST.LB.RR",
   "parentLoadBalancer": "REST.LB.RR",
   "serverNodeType": "SOAP_WEB_SERVICE",
   "sortOrder": 1,

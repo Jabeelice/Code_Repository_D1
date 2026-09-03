@@ -1,5 +1,5 @@
 {
-  "parent": "[Jabee_Domain]MIN_WEIGHT_LB",
+  "parent": "[3.3.2.102_CodeRepo]MIN_WEIGHT_LB",
   "parentLoadBalancer": "MIN_WEIGHT_LB",
   "serverNodeType": "LINUX",
   "sortOrder": 1,

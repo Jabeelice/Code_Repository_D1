@@ -1,5 +1,5 @@
 {
-  "parent": "[Jabee_Domain]ACTIVE_PASSIVE_FAILOVER_LB",
+  "parent": "[3.3.2.102_CodeRepo]ACTIVE_PASSIVE_FAILOVER_LB",
   "parentLoadBalancer": "ACTIVE_PASSIVE_FAILOVER_LB",
   "serverNodeType": "LINUX",
   "totalWeightCapacity": 50,

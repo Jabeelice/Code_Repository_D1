@@ -1,5 +1,7 @@
 {
   "loadBalancer": true,
   "loadBalancerStrategy": "ROUND_ROBIN",
-  "serverNodeType": "REST_WEB_SERVICE"
+  "serverNodeType": "REST_WEB_SERVICE",
+  "customFieldValues": {
+  }
 }
